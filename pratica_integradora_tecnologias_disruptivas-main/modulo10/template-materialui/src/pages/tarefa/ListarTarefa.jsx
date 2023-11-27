@@ -122,10 +122,10 @@ const ListarTarefa = () => {
                       <TableCell align="right">{row.statusTarefa}</TableCell>
                       <TableCell align="right">{row.recursoTarefa}</TableCell>
                       <TableCell align="center">
-                        <Button variant="contained" color="success" onClick={() => handleEditar(row.idTarefa)}><EditIcon fontSize="small" /></Button>            
+                        <Button variant="contained" sx={{ backgroundColor: '#4caf50', color: 'white' }} onClick={() => handleEditar(row.idTarefa)}><EditIcon fontSize="small" /></Button>            
                       </TableCell>
                       <TableCell align="center">
-                        <Button variant="contained" color="error" onClick={() => handleDeletar(row.idTarefa)}><DeleteIcon fontSize="small" /></Button>            
+                        <Button variant="contained" sx={{ backgroundColor: '#f44336', color: 'white' }} onClick={() => handleDeletar(row.idTarefa)}><DeleteIcon fontSize="small" /></Button>            
                       </TableCell>
                     </TableRow>
                 ))}
