@@ -130,7 +130,7 @@ const ListarTarefa = () => {
         </Card.Text>
         <Row>
           <Col md="auto">
-            <Button variant="success" onClick={handleOpen}>Criar Tarefa</Button>  
+            <Button variant="dark" onClick={handleOpen}>Criar Tarefa</Button>  
           </Col>
           <Col md={1}>
             <Button variant="secondary" className="ml-30">Cancelar</Button>
